@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html translate="no">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+  <title>Selamat Ulang Tahun</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="google" content="notranslate">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <audio id="unconditionally-audio" src="assest/suara/unconditionally.mp3"></audio>
+  <div class='enter let-pop'>YUK DIBUKA</div>
+  <div class='door'>
+    <div class='left'></div>
+    <div class='right'></div>
+  </div>
+  <div class="fireworks kotakutama">
+    <div class="kotakteks">
+      <h1 class="ml10">
+        <span class="text-wrapper text-center">
+          <span class="letter let-cav">HAPPY SWEET SEVENTEEN</span>
+        </span>
+        <br>
+        <span class="text-wrapperz text-center">
+          <span class="letter let-pop">Hikmatunnisa Rangkuti</span>
+        </h1>
+        <p class="letter let-pop mt-3">Terima kasih karena selalu peduli padaku❤️</p>
+    </div>
+
+    <img src="./assest/kue.gif" class="kue">
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fireworks-js@2.x/dist/index.umd.js"></script>
+  <script>
+    const container = document.querySelector('.fireworks');
+    const fireworks = new Fireworks.default(container);
+    fireworks.start();
+  </script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

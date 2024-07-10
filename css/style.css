@@ -1,0 +1,219 @@
+html,
+.door {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+body {
+  font-size: 10pt;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow-x: hidden !important;
+}
+
+.letter {
+  color: black;
+}
+
+.let-pop {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.let-cav {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.mt-3 {
+   margin-top: 12px;
+}
+
+.kotakteks {
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  left: calc(50% - 50%);
+  text-align: center;
+}
+
+.kotakutama {
+  overflow-y: hidden;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.kotakutama .kue {
+  width: 30%;
+  position: absolute;
+  bottom: 0;
+}
+
+.door {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 18796;
+}
+
+.door .left,
+.door .right {
+  font-size: 10pt;
+  display: inline-block;
+  width: calc(50% - 2.5px);
+  height: 100%;
+  background-image: url("../assest/gambar/pita2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.door .left {
+  float: left;
+  border-right: solid 2.5px #ff4191;
+}
+
+.door .right {
+  float: right;
+  border-left: solid 2.5px #ff4191;
+}
+
+.enter {
+  cursor: pointer;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  z-index: 18797;
+  position: absolute;
+  padding: 5px 10px;
+  margin: auto;
+  background: #ff4191;
+  color: #fff;
+  border: solid 3px #fff;
+  font-weight: bold;
+}
+
+.enter:hover {
+  background: #fff;
+  color: #ff4191;
+  border: solid 3px #ff4191;
+}
+
+.ml10 {
+  position: relative;
+  font-weight: 900;
+  font-size: 2.6em;
+  color: #fff;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
+}
+
+@media (min-width: 290px) and (max-width: 670px) {
+  .door .left {
+    float: left;
+    border-right: solid 2.5px #005870;
+  }
+
+  .door .right {
+    float: right;
+    border-left: solid 2.5px #005870;
+  }
+
+  .enter {
+    cursor: pointer;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    z-index: 18797;
+    position: absolute;
+    padding: 5px 10px;
+    margin: auto;
+    background: #005870;
+    color: #fff;
+    border: solid 3px #fff;
+    font-weight: bold;
+  }
+
+  .enter:hover {
+    background: #fff;
+    color: #005870;
+    border: solid 3px #005870;
+  }
+
+  .door .left,
+  .door .right {
+    font-size: 10pt;
+    display: inline-block;
+    width: calc(50% - 2.5px);
+    height: 100%;
+    background-image: url("/assest/gambar/pintumobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .kotakutama {
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: 300% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .kotakutama .kue {
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+  }
+
+  .kotakteks {
+    top: 50%;
+    width: 100%;
+    position: absolute;
+    left: calc(50% - 50%);
+    text-align: center;
+  }
+
+  .ml10 {
+    position: relative;
+    font-weight: 900;
+    font-size: 1.6em;
+    color: #fff;
+  }
+
+  .ml10 .letter {
+    display: inline-block;
+    line-height: 1em;
+    transform-origin: 0 0;
+  }
+}
